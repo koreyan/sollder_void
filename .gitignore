@@ -1,0 +1,54 @@
+# [Python / Backend]
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.env
+backend.log
+phase3_training.log
+
+# [Node / Frontend]
+node_modules/
+web/node_modules/
+.next/
+web/.next/
+out/
+build/
+.vercel
+dist/
+
+# [AI Models & Data]
+# 데이터셋과 대용량 가중치는 깃허브 용량 제한 및 보안을 위해 무시
+archive/
+data/
+results/
+scratch/
+runs/
+!runs/detect/models/detector/proposed/weights/best.pt
+*.pt
+!yolov8s.pt
+
+# [System]
+.DS_Store
+Thumbs.db
+
+# [Useless / Intermediate Documentation]
+# 최종 보고서(FINAL_REPORT.md)와 README를 제외한 중복 문서들
+00_TODO.md
+01_PROJECT_GOALS.md
+02_MASTER_PLAN.md
+PLAN.md
+Report.md
+Todo.md
+web_design.md
+PHASE4_REPORT.md
+99_DATASET_SOURCE.md
+03_TECH_STRATEGY.md
+04_MID_PROGRESS_REPORT.md
+05_PHASE4_ANALYSIS.md
+06_PHASE5_WEB_DESIGN.md
+
+# [Temporary / Execution Files]
+run_phase3.sh
+eval_results.json
