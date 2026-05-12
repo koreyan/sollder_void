@@ -13,7 +13,6 @@
 | ![Initial](./assets/ux_1_initial.png) | ![Generated](./assets/ux_2_generated.png) | ![Result](./assets/ux_3_result.png) |
 | **Ready State**: 시스템 대기 및 분석 환경 세팅 완료 | **GAN Inference**: DCGAN 모델이 실제 패턴을 학습하여 가상 불량을 실시간 생성함 | **YOLO Detection**: 생성 이미지 내 Void를 탐지하고 BBox 및 신뢰도 확률을 표기함 |
 
-*   **기술적 가치**: 불량 데이터가 희소한 제조 현장에서 AI가 스스로 학습용 데이터를 생성하고 즉시 판독 성능을 테스트할 수 있는 **Self-evolving 파이프라인**을 제시함.
 
 ---
 
