@@ -2,6 +2,8 @@
 
 본 프로젝트는 반도체 패키징 공정의 품질 관리 혁신을 위해 **DCGAN을 활용한 가상 불량 생성** 및 **YOLOv8 기반의 실시간 Void 탐지 시스템**을 구축한 엔드-투-엔드 솔루션임.
 
+> **Quick Start**: 로컬 환경에서 시스템을 바로 실행해보려면 [로컬 실행 가이드(INSTALL.md)](./INSTALL.md)를 참고바람.
+
 ---
 
 ## 🚀 1. Interactive UX Flow (Real-time Pipeline)
