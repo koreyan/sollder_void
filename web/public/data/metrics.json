@@ -1,0 +1,24 @@
+{
+  "baseline": {
+    "mAP50": 0.7640304233801174,
+    "mAP50-95": 0.4209156868164786,
+    "Precision": 0.7629543807820275,
+    "Recall": 0.7410154021677124,
+    "F1": 0.7518248753668019,
+    "training_time_sec": 1084,
+    "epochs": 5,
+    "data_count": 1260,
+    "model_name": "YOLOv8s (Real Data Only)"
+  },
+  "proposed": {
+    "mAP50": 0.7261247471009481,
+    "mAP50-95": 0.40316828180876135,
+    "Precision": 0.7128674216613932,
+    "Recall": 0.6491728465487735,
+    "F1": 0.6795308246501917,
+    "training_time_sec": 1402,
+    "epochs": 5,
+    "data_count": 1760,
+    "model_name": "YOLOv8s (Real + Synthetic)"
+  }
+}
