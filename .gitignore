@@ -19,13 +19,15 @@ build/
 dist/
 
 # [AI Models & Data]
-# 데이터셋과 대용량 가중치는 깃허브 용량 제한 및 보안을 위해 무시
+# 데이터셋과 대용량 가중치는 무시하되, 실행에 필수적인 가중치는 포함
 archive/
 data/
 results/
 scratch/
 runs/
+# 필수 가중치 예외 처리
 !runs/detect/models/detector/proposed/weights/best.pt
+!models/generator/dcgan_g.pt
 *.pt
 !yolov8s.pt
 
